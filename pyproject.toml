@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "codecognition"
+version = "0.1.0"
+description = "code and note for AI"
+authors = ["zhaoyii <532708564@qq.com>"]
+license = "MIT"
+readme = "README.md"
+
+[[tool.poetry.source]]
+name = "tuna"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
+priority = "primary"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+transformers = "^4.31.0"
+torch = "^2.0.1"
+python-dotenv = "^1.0.0"
+emoji = "0.6.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
