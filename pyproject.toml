@@ -17,6 +17,7 @@ transformers = "^4.31.0"
 torch = "^2.0.1"
 python-dotenv = "^1.0.0"
 emoji = "0.6.0"
+gradio = "^3.39.0"
 
 
 [build-system]
