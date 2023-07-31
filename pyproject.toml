@@ -18,6 +18,9 @@ torch = "^2.0.1"
 python-dotenv = "^1.0.0"
 emoji = "0.6.0"
 gradio = "^3.39.0"
+pymilvus = "^2.2.14"
+towhee = "^1.1.1"
+spacy = "^3.6.0"
 
 
 [build-system]
