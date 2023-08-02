@@ -29,6 +29,7 @@ mdtex2html = "^1.2.0"
 sentencepiece = "^0.1.99"
 accelerate = "^0.21.0"
 torchvision = "^0.15.2"
+modelscope = "^1.7.1"
 
 
 [build-system]
