@@ -1,4 +1,4 @@
-# 测试 torch 是否可用
+# 测试 torch 绑定的 cuda 是否可用
 
 import torch
 
