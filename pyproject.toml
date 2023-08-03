@@ -12,7 +12,7 @@ url = "https://pypi.tuna.tsinghua.edu.cn/simple/"
 priority = "primary"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.8,<3.9.7"
 transformers = "^4.31.0"
 torch = "^2.0.1"
 python-dotenv = "^1.0.0"
@@ -30,6 +30,7 @@ sentencepiece = "^0.1.99"
 accelerate = "^0.21.0"
 torchvision = "^0.15.2"
 modelscope = "^1.7.1"
+streamlit = "^1.25.0"
 
 
 [build-system]
