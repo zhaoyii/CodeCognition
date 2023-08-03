@@ -7,6 +7,8 @@ import os
 input = "https://vigen-video.oss-cn-shanghai.aliyuncs.com/VideoEnhancement/Dataset/ClassicalSRDataset/inputs/OST_009.png"
 
 """
+本 demo 需要多CPU、大内存、大显存才能运行
+
 官方的 demo 没有加 revision='v1.0.0' 无法下载模型，导致跑不通
 如果要跑通，一定要加 revision 参数
 
