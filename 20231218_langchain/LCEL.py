@@ -1,3 +1,9 @@
+"""
+LCEL 表达式是 langchain 的独特发明，可以说是最重要的贡献了，看样子确实精简了好多代码
+
+参考文档：https://python.langchain.com/docs/expression_language/get_started
+"""
+
 from typing import List
 
 from langchain.chat_models import ChatOpenAI
